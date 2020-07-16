@@ -1,6 +1,6 @@
 resource "google_compute_firewall" "default" {
-name    = "terraform-firewall"
-network = "dev-vpc"
+name    = "default"
+network = "us-central1"
 
 allow {
 protocol = "tcp"
