@@ -2,7 +2,7 @@ variable "region" {
   default = "us-central1"
 }
 variable "project-name" {
-  default = "env-pro-terraform"
+  default = "gkejenkinsx"
 }
 #variable "tags"{
 #type = "list"
